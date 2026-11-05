@@ -1,0 +1,44 @@
+{
+  "scenes": [
+    {
+      "name": "curve",
+      "image": "path/to/curve.jpg",
+      "mask": "path/to/curve.png",
+      "annotation": "path/to/curve.json",
+      "roi": [0, 0, 960, 540],
+      "circle_roi": null,
+      "circle_radius": [8, 180],
+      "description": "Поворот пути"
+    },
+    {
+      "name": "switch",
+      "image": "path/to/switch.jpg",
+      "mask": "path/to/switch.png",
+      "annotation": "path/to/switch.json",
+      "roi": [0, 0, 960, 540],
+      "circle_roi": null,
+      "circle_radius": [8, 180],
+      "description": "Стрелка"
+    },
+    {
+      "name": "crossing",
+      "image": "path/to/crossing.jpg",
+      "mask": "path/to/crossing.png",
+      "annotation": "path/to/crossing.json",
+      "roi": [0, 0, 960, 540],
+      "circle_roi": null,
+      "circle_radius": [8, 180],
+      "description": "Переезд"
+    },
+    {
+      "name": "occlusion",
+      "image": "path/to/occlusion.jpg",
+      "mask": "path/to/occlusion.png",
+      "annotation": "path/to/occlusion.json",
+      "roi": [0, 0, 960, 540],
+      "circle_roi": null,
+      "circle_radius": [8, 180],
+      "description": "Частичное перекрытие рельсов"
+    }
+  ]
+}
